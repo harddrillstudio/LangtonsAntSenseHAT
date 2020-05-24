@@ -85,14 +85,6 @@ class Ant:
         
         matrix.matrix[self.x][self.y] = Colors[current["next"]]
             
-        #if current == Colors['0']:
-            #self.turn_left()
-            #matrix.matrix[self.x][self.y] = Colors['1']
-            
-        #if current == Colors['1']:
-            #self.turn_right()
-            #matrix.matrix[self.x][self.y] = Colors['0']
-            
         self.forward()
         
         self.x = (self.x + 8) % 8
@@ -126,9 +118,6 @@ class Matrix:
     def render(self):
         matrix_1d = [j["color"] for cols in self.matrix for j in cols]
         sense.set_pixels(matrix_1d)
-        #for y in range(8):
-            #for x in range(8):
-                #sense.set_pixel(x, y, self.matrix[x][y])
                 
     def render_ant(self, ant):
         sense.set_pixel(ant.y, ant.x, Colors["anter"])
@@ -179,12 +168,9 @@ sense.stick.direction_up = pushed_up
 sense.stick.direction_down = pushed_down
 
 while True:
-    #print(ant)
       
     matrix.render()
     matrix.render_ant(ant)
-    
-    #Colors["anter"] = [random.randint(0,255), random.randint(0,255), random.randint(0,255)]
     
     time.sleep(timeout)
     ant.move(matrix)
