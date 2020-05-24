@@ -1,9 +1,9 @@
 # LangtonsAntSenseHAT
 Langton's ant implementation written in Python. Requires SenseHAT on Raspberry Pi.
 
-Joystick actions:
-Up - reset LED matrix
-Right / Left - control speed
+Joystick actions:  
+Up - reset LED matrix  
+Right / Left - control speed  
 Down - change ant color
 
 ## Activity diagram - main loop (old version)
