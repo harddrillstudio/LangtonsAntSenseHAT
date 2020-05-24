@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="169px" preserveAspectRatio="none" style="width:119px;height:169px;" version="1.1" viewBox="0 0 119 169" width="119px" zoomAndPan="magnify"><defs><filter height="300%" id="f120zo20qufsdg" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--class Ant--><rect fill="#FEFECE" filter="url(#f120zo20qufsdg)" height="150.4375" id="Ant" style="stroke: #A80036; stroke-width: 1.5;" width="102" x="6" y="8"/><ellipse cx="43.05" cy="24" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M46.0188,29.6406 Q45.4406,29.9375 44.8,30.0859 Q44.1594,30.2344 43.4563,30.2344 Q40.9563,30.2344 39.6359,28.5859 Q38.3156,26.9375 38.3156,23.8125 Q38.3156,20.6875 39.6359,19.0313 Q40.9563,17.375 43.4563,17.375 Q44.1594,17.375 44.8078,17.5313 Q45.4563,17.6875 46.0188,17.9844 L46.0188,20.7031 Q45.3938,20.125 44.8,19.8516 Q44.2063,19.5781 43.5813,19.5781 Q42.2375,19.5781 41.55,20.6484 Q40.8625,21.7188 40.8625,23.8125 Q40.8625,25.9063 41.55,26.9766 Q42.2375,28.0469 43.5813,28.0469 Q44.2063,28.0469 44.8,27.7734 Q45.3938,27.5 46.0188,26.9219 L46.0188,29.6406 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="21" x="61.95" y="28.1543">Ant</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="107" y1="40" y2="40"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="24" x="12" y="54.2104">Int x</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="24" x="12" y="67.0151">Int y</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="69" x="12" y="79.8198">Direction dir</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="107" y1="86.4141" y2="86.4141"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="90" x="12" y="100.6245">void turn_right()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="82" x="12" y="113.4292">void turn_left()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="79" x="12" y="126.2339">void forward()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="66" x="12" y="139.0386">void move()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="75" x="12" y="151.8433">void __str__()</text><!--
+@startuml
+class Ant {
+  Int x
+  Int y
+  Direction dir
+
+  void turn_right()
+  void turn_left()
+  void forward()
+  void move()
+  void __str__()
+}
+@enduml
+
+PlantUML version 1.2019.04(Fri Mar 29 15:44:36 UTC 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_212-8u212-b01-1~deb9u1-b01
+Operating System: Linux
+OS Version: 4.15.0-45-generic
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
